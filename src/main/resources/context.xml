@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- context.xml的相关配置 -->
+<myHttpServer context="/myHttp">
+    <handler>
+        <handler-class>com.multimodule.customserver.StartCustomServer.FirstHandler</handler-class>
+        <url-pattern>/firstHandler</url-pattern>
+    </handler>
+</myHttpServer>
